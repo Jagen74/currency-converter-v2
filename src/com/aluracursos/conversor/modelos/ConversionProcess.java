@@ -25,7 +25,7 @@ public class ConversionProcess {
         System.out.println("Ingresa moneda destino (ej: MXN, JPY):");
         String currTarget = kb.nextLine().toUpperCase();
 
-        System.out.println("Ingresa el monto a convertir;");
+        System.out.println("Ingresa el monto a convertir:");
         Double amount = kb.nextDouble();
         kb.nextLine();
 
